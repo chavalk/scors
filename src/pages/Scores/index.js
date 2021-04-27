@@ -3,7 +3,11 @@ import ScoresRow from '../../components/ScoresRow';
 
 const Scores = () => {
     return (
-        <ScoresRow></ScoresRow>
+        <div>
+            <ScoresRow
+                league="NBA"
+            ></ScoresRow>
+        </div>
     );
 }
 
