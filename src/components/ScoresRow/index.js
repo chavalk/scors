@@ -9,7 +9,7 @@ import './style.css';
 const ScoresRow = (props) => {
     return (
         <Container className="mt-3">
-            <h3 className="mr-3">{props.nba}</h3>
+            <h3 className="mr-3">{props.league}</h3>
             <CurrentDate />
             <Row>
                 <Col md={3}>
