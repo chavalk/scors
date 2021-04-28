@@ -52,6 +52,30 @@ const Scores = () => {
                 homeLogo4="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/pit.png&h=70&w=70"
                 homeTeam4="Pirates"
             />
+            <ScoresRow
+                // League
+                league="NHL"
+                // Game one
+                awayLogo1="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/van.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                awayTeam1="Canucks"
+                homeLogo1="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/ott.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                homeTeam1="Senators"
+                // Game two
+                awayLogo2="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/stl.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                awayTeam2="Blues"
+                homeLogo2="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/min.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                homeTeam2="Wild"
+                // Game three
+                awayLogo3="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/tor.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                awayTeam3="Maple Leafs"
+                homeLogo3="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/mtl.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                homeTeam3="Canadiens"
+                // Game four
+                awayLogo4="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/edm.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                awayTeam4="Oilers"
+                homeLogo4="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nhl/500/scoreboard/wpg.png&h=64&w=64&scale=crop&cquality=40&location=origin"
+                homeTeam4="Jets"
+            />
         </>
     );
 }
