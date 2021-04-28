@@ -9,39 +9,39 @@ import './style.css';
 const ScoresRow = (props) => {
     return (
         <Container className="mt-3">
-            <h3 className="mr-3">{props.league}</h3>
+            <h3 className="mr-3">{props.nba}</h3>
             <CurrentDate />
             <Row>
                 <Col md={3}>
                     <ScoresCard
-                        awayLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/orl.png&h=70&w=70"
-                        awayTeam="Magic"
-                        homeLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/cle.png&h=70&w=70"
-                        homeTeam="Cavaliers"
+                        awayLogo={props.awayLogo1}
+                        awayTeam={props.awayTeam1}
+                        homeLogo={props.homeLogo1}
+                        homeTeam={props.homeTeam1}
                     />
                 </Col>
                 <Col md={3}>
                     <ScoresCard
-                        awayLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/atl.png&h=70&w=70"
-                        awayTeam="Hawks"
-                        homeLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/phi.png&h=70&w=70"
-                        homeTeam="76ers"
+                        awayLogo={props.awayLogo2}
+                        awayTeam={props.awayTeam2}
+                        homeLogo={props.homeLogo2}
+                        homeTeam={props.homeTeam2}
                     />
                 </Col>
                 <Col md={3}>
                     <ScoresCard
-                        awayLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&h=70&w=70"
-                        awayTeam="Lakers"
-                        homeLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/wsh.png&h=70&w=70"
-                        homeTeam="Wizards"
+                        awayLogo={props.awayLogo3}
+                        awayTeam={props.awayTeam3}
+                        homeLogo={props.homeLogo3}
+                        homeTeam={props.homeTeam3}
                     />
                     </Col>
                 <Col md={3}>
                     <ScoresCard
-                        awayLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/cha.png&h=70&w=70"
-                        awayTeam="Hornets"
-                        homeLogo="https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bos.png&h=70&w=70"
-                        homeTeam="Celtics"
+                        awayLogo={props.awayLogo4}
+                        awayTeam={props.awayTeam4}
+                        homeLogo={props.homeLogo4}
+                        homeTeam={props.homeTeam4}
                     />
                 </Col>
             </Row>
