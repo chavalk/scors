@@ -3,16 +3,16 @@ import Card from 'react-bootstrap/Card';
 
 const ScoresCard = (props) => {
     return (
-        <Card border="secondary">
+        <Card border="secondary" className="mb-3">
             <Card.Body>
-                <Card.Title>
+                <Card.Text>
                     <img className="mr-1" src={props.awayLogo} alt="Logo" style={{ maxWidth:"35px"}}/>
                     {props.awayTeam}
-                </Card.Title>
-                <Card.Title>
+                </Card.Text>
+                <Card.Text>
                     <img className="mr-1" src={props.homeLogo} alt="Logo" style={{ maxWidth:"35px"}}/>
                     {props.homeTeam}
-                </Card.Title>
+                </Card.Text>
             </Card.Body>
         </Card>
     );
